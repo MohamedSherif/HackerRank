@@ -26,7 +26,7 @@ public class BinaryTree {
 			return leftHeight + 1;
 		else
 			return rightHeight + 1;
-	}
+	}	
 
 	public static void preOrderTraversal(Node root){
 		if (root == null) 
